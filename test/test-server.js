@@ -21,6 +21,7 @@ describe('Shopping List', function() {
   // doing `return runServer`. If we didn't return a promise here,
   // there's a possibility of a race condition where our tests start
   // running before our server has started.
+  /*
   before(function() {
     return runServer();
   });
@@ -32,7 +33,7 @@ describe('Shopping List', function() {
   // server would still be running from the previous tests.
   after(function() {
     return closeServer();
-  });
+  }); */
 
   // test strategy:
   //   1. make request to `/shopping-list`
