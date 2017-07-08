@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: Z3DwxqMra/f1o7lRGFu1gLQxwSxTUYxKfnZ4a6sSVH2RbaIajBrc56aN0+ShwrmGxjInTKkOI3/Q5qgvx8YmczgW7Y4DbyGwb1TiPSySp2e9Atg3WlZbRp19D4GLE2hc0+/lKwueVLp4RfeZwOd5A9yyox7s8obFrw33Q14rzDHJkGVYDFP/DbfML/e9hZwushusJweuQAKvexFo3HK6Pyuj0kWO8Nal0wcxUoOKeLRKpPRKLhxIvh6ZVthMn+WkxBeUNFvMH6FvnWA9AZt9FuMw2q9GtbldHmL/Y85dbm/woyuUT5K2Uc4qVRBLit2dDs7FvUeW+cJlKeR/xXpCv5iK6y08U6jmOERgfJxlFTP4wWBvW2OvFcJL+Ilt7iXbD7PVYxGqexBzpkYgrdQ4+9gMkYNSvtiUYHSUReZVnuk15DxbOwENnMT5NljyVJAb0wjBXX2dgIbWy+13+0lNNJcmZLLhssKejmi6/YgQcR9QAXzUTn13K2K0f1Uy5EbJzFUjbMO4jo7fwgnjukgUwcctgUC9lKCvmFOPUyzMeLag1XzNyVq36R8C0H3CuaqhHwMAnfwM+nYz+NwWWbhGIR9CvsZVW3NrU4P1zZgBsWqcLTLTnpD6MXkyBB/OQjUBlWXWtRaOFqz+7PyEtg/OcyqXZyQaKOv33kT2nql30gA=
-  app: https://safe-beyond-69099.herokuapp.com/
+  app: https://safe-beyond-69099.herokuapp.com/ | https://git.heroku.com/safe-beyond-69099.git
   on:
     repo: keyth202/node-shopping-list-integration-tests
