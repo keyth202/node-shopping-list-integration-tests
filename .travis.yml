@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: sXScyUgJvl9ovDBI5bAiCZ0RmoVO5fjhH4CH8lTxDs/9nelYr8ulk7ByQWD8VhP+kbbUWaZHB9TwqcA2C9I69zZo1YUIF7LDAdZyowpv7/5VkzoLB8mEzYVHGUAFMkF8OXE03+hZueOx5Ff477xg3zi3wcQP9eIeNh+b3C8kDRENr3pGIYh1My+tBkpONI6l6ZZq2p/DsKIvsYoYT/Z0iCLOQDpgwcIrP1xBt/FmoJj3xDrbf9N5voD0nJW84hVkkg7fJHsUIWH8GBNCni1A15PlkNQxlu6iIM2cRqKI7SEN4bSxwjCvsU7zbQQqaJhz28w58ldIvMtzrPAPxLHS8BmtmXvJYlVfQeFtPbzb+u5gKfaaZQ603np+wzmaRNsQvruCXuu9VvWTTrEjqORZCZ4cuMp+rymLOHXkgFGSH07te7vZyycNOs0QkzOaw1uKWkcO/dmK8zgifdcYV4UWqf2VrbgwlzdlfgyeFZ0ZZkc+Q5+G7dRzBa2EsAVL2VIeVXPVpxUA15uDZXX8wCwnQ5i8dsIykwpsYnbjtFaQL9DrGpxyLlrAQ1wOLR+dceRhcp8UUesNbPaGsoQ+VDrPp6cweawF/Ow1+Up3lb3Kj7JlRdC2gFFXpFKvc55Tfk3a+s29lhZ9ZVzG5HiCJNCS09k5fIaAr1TXMe3Z204BA5o=
+  app: https://safe-beyond-69099.herokuapp.com/
+  on:
+    repo: keyth202/node-shopping-list-integration-tests
